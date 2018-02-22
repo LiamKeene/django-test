@@ -1,0 +1,38 @@
+[
+{
+  "model": "enrolment.enrolment",
+  "pk": 1,
+  "fields": {
+    "field_of_interest": "",
+    "completed": "2018-02-21T13:17:24.763Z",
+    "exported": "2018-02-21T21:17:37.485Z"
+  }
+},
+{
+  "model": "enrolment.enrolment",
+  "pk": 2,
+  "fields": {
+    "field_of_interest": "",
+    "completed": "2018-02-22T13:16:07.031Z",
+    "exported": null
+  }
+},
+{
+  "model": "enrolment.enrolment",
+  "pk": 3,
+  "fields": {
+    "field_of_interest": "",
+    "completed": "2018-02-22T01:23:24.001Z",
+    "exported": null
+  }
+},
+{
+  "model": "enrolment.enrolment",
+  "pk": 4,
+  "fields": {
+    "field_of_interest": "",
+    "completed": null,
+    "exported": null
+  }
+}
+]

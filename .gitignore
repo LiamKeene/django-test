@@ -1,0 +1,8 @@
+db.sqlite3
+*.DS_Store
+*.pyc
+*.pyo
+*.swp
+*.log
+
+.idea

@@ -1,0 +1,17 @@
+{% load static %}
+<!doctype html>
+<html>
+  <head>
+    <title>Plan Selection</title>
+  </head>
+  <body>
+    <h1>Plan Selection</h1>
+
+    <form action="">
+      {{ form.as_p }}
+    </form>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="{% static 'plan_selection.js' %}"></script>
+  </body>
+</html>
