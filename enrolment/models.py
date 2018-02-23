@@ -4,12 +4,10 @@ from django.db import models
 
 """
 
-
 """Create queries for the Enrolment model that will allow us to query Enrolments
 that are 'not_synced', ie completed but not exported.
 
 """
-
 
 
 class Enrolment(models.Model):
@@ -42,3 +40,16 @@ class Enrolment(models.Model):
             WHERE
                 table.someId IN <list of formatted IDs>
             """
+
+class Plan(models.Model):
+    Option_1 = 'op1'
+    Option_2 = 'op2'
+    option_choices = (
+        (Option_1, 'option1'),
+        (Option_2, 'option2')
+    )
+    optionschoices = models.CharField(
+        max_length=2,
+        choices=option_choices,
+        default=Option_1,
+    )

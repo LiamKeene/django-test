@@ -18,7 +18,12 @@ from django.urls import path
 
 from enrolment.views import EnrolmentView
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("enrolment/", EnrolmentView.as_view()),
+    path("choice/", EnrolmentView.as_view()),
+
+#    path(r'^$', )
+
 ]
